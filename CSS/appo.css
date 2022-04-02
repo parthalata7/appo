@@ -1,0 +1,410 @@
+/* Global style  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.heading{
+    font-family: 'Nunito', sans-serif;
+    
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.sub-heading{
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5rem;
+}
+.pg{
+    margin-top: 20px;
+    margin-left: 126px;
+    font-family: 'Nunito', sans-serif;
+    width: 346px;
+    height: 66px;
+}
+.underline{
+display: block;
+width: 5%;
+border-bottom: 3px solid #00fff0;
+margin: auto;
+}
+.btn{
+    color: #fff;
+    cursor: pointer;
+    padding: 10PX;
+    border-radius: 4PX;
+    border: none;
+background-color:#00fff0 ;
+}
+.btn:hover{
+    color: #00fff0;
+    background-color: transparent;
+    border: 1px solid #00fff0;
+}
+/* For desktop: */
+.row{width: 100%;float: left;}
+.col-1 {width: 8.33%;float: left;}
+.col-2 {width: 16.66%;float: left;}
+.col-3 {width: 25%;float: left;}
+.col-4 {width: 33.33%;float: left;}
+.col-5 {width: 41.66%;float: left;}
+.col-6 {width: 50%;float: left;}
+.col-7 {width: 58.33%;float: left;}
+.col-8 {width: 66.66%;float: left;}
+.col-9 {width: 75%;float: left;}
+.col-10 {width: 83.33%;float: left;}
+.col-11 {width: 91.66%;float: left;}
+.col-12 {width: 100%;float: left;}
+/* <!-- =================Header Part=========== --> */
+header{
+    background-color: #223047;
+    padding: 0px 15px;
+}
+.logo-part{}
+.logo-part img{
+    margin: 10px 0px;
+}
+.menu-part{
+    text-align: center;
+}
+.menu-part ul{margin: 15px 0px;}
+.menu-part li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.menu-part i{color: #fff;}
+.menu-part a{color: #fff;}
+.btn-part{
+    margin: 10px 0px;
+}
+.btn-part button{}
+.btn-part i{
+    padding: 10px;
+    color: #fff;
+}
+/* <!-- =================Hero section=========== --> */
+.hero{
+    height: 630px;
+    margin-top: 1px;
+    background-color: #223047;
+}
+.hero-heading{margin: 0px 126px;}
+.hero-writing-part{
+    margin-top: 120px;
+    color: #fff;
+    padding: 20px;
+}
+
+
+.hero-btn{
+    margin: 60px 10px 50px 123px;
+}
+.hero-btn-light{
+
+    border: 1px solid #00fff0;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.hero-img-part{
+    height: 80px;
+}
+.hero img{
+    width: 280px;
+    margin-top: 100px;
+    height: 582px;}
+/* Hero section end */
+/* ==========feature part======= */
+section#feature {
+    text-align: center;
+}
+.feature-heading-part{
+    margin-top: 80px;
+    /* margin: 80px 0px; */
+}
+.feature-heading{
+    margin: 0px 380px;
+    text-align: center;
+}
+.feature-box-part{
+    margin-top: 10px;
+}
+.feature-box{
+    padding: 10px;
+}
+.feature-box img{
+    border-radius: 5px;
+    box-shadow: 5px 3px 5px 5px#000;
+}
+.feature-box img:hover{
+    background-color: #00fff0;
+}
+.modern{
+    padding-top: 10px;
+}
+.feature-box p{
+    font-size: 14px;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+/* =========get more part========= */
+#get{
+    width: 100%;
+}
+.get-img-part{
+    height: 10px;
+    float: left;
+}
+.get-writing-part{
+    float: left;
+}
+.imgb{
+    padding: 200px 10px;
+  background-color:#223047;
+}
+.from{
+    padding: 10px 250px 0px 0px;
+    margin-top: 100px;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 80px;
+}
+.cras{
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 180px 0px 80px;
+}
+/* =============get more part end ============== */
+/* ===============ready=========== */
+#ready{
+    width: 100%;
+}
+.ready-writing-part{
+    margin-top: 170px;
+}
+.ready-img-part{
+    margin-top: 100px;
+}
+.stable{
+    margin-left: 295px;
+    padding-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+.sed{
+    text-align: end;
+    padding: 0px 112px;
+    padding-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+.ready-btn{
+    margin-left: 346px;
+}
+/* =====================ready part end====================== */
+/* =============made part=============== */
+#made{
+    width: 100%;
+}
+.made-img-part{
+    position: relative;
+}
+
+.love{padding: 30px;}
+.love i{
+margin: 10px;
+}
+.love h3{
+    margin: -30px 0px 0px 40px;
+}
+.porta{
+    padding: 0 40px;
+}
+.bak{
+    background-color: #00fff0;
+    border-radius: 2px;
+}
+.love:hover{
+    background-color: #00fff0;
+}
+.bak:hover{
+    border: 1px solid#00fff0;
+    background-color: transparent;
+}
+/* =============made part end============ */
+/* ===============button part========== */
+.botton{
+    float: left;
+    margin-top: -60px;
+    background-color: #babdbd;
+}
+.need-writing-part samp{
+    border-radius: 100%;
+    background-color: #00fff0;
+    display: inline;
+    padding: 3px;
+    margin: 0px 75px;
+}
+.need-writing-part{
+    margin-top: 40px;
+    margin-left: -55px;
+    padding: 80px;
+    text-align: end;
+}
+.need-writing-part p{
+    font-family: 'Nunito', sans-serif;
+}
+.headingbtn{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.na{
+    margin: -20px 0px 10px 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.need-img-part{
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 200px;
+    padding: 160px 100px;
+    background-color: #000;
+}
+/* ===============button part end========== */
+/* ===============video part======== */
+#video{
+    color: #fff;
+    background-color: #223047;
+    text-align: center;
+}
+.watche{
+    padding: 100px;
+}
+.watche img{
+    padding-top: 80px;
+}
+.watche h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+.watche p{
+    font-family: 'Nunito', sans-serif;
+}
+/* ==============video part end============= */
+/* ==============join part=========== */
+#join{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.users{
+    padding: 100px;
+}
+.users h1{
+    padding-bottom: 10px;
+}
+.users h4{
+    padding-bottom: 10px;
+}
+/* ================join part end =========== */
+/* ============done part========== */
+#done{
+    color: #fff;
+    text-align: center;
+    background-color: #223047;
+}
+#done p{
+    padding: 100px;
+    font-family: 'Nunito', sans-serif;
+}
+/* =================done part end=============== */
+/* =============now part========== */
+#now{
+    width: 100%;
+}
+.mobila{
+    height: 300px;
+    padding: 0px 0px 0px 140px;
+    margin: 46px -44px 0px 0px;
+    position: relative;
+}
+.mobilb{
+    margin: 0px 0px 20px 0px;
+    height: 250px;
+}
+.now-writing-part{
+    margin: 87px 0px 0px 0px; 
+}
+.now-writing-part h2{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.now-writing-part p{
+    padding: 20px 0;
+    font-family: 'Nunito', sans-serif;
+}
+.now-btn{
+    padding: 20px 80px;
+    margin-left: -145px;
+    margin-top: 80px;
+}
+/* ==============now part end========== */
+/* ==========Company part=========== */
+.company{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.development{
+    margin-bottom: 20px;
+}
+.development h4{
+    margin-left: 85px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+.development a{
+    margin-left: 85px;
+    font-family: 'Nunito', sans-serif;
+    display: block;
+    color: #000;
+    line-height: 30px;
+    font-size: 20px;
+}
+/* =============Company part end============= */
+/* =============touch part=============== */
+.touch{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.in{
+    line-height: 60px;
+}
+.touch-btn{
+    margin-left: 417px;
+    margin-bottom: 40px;
+}
+/* ==============touch part end============== */
+footer{
+    color: #fff;
+    padding: 40px;
+    background-color: #223047;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.footer-writing-part{
+   margin-top: 0px;
+    padding-left: 160px;
+}
+.footer-icon-part{
+    padding-left: 160px;
+    margin-bottom: 10px;
+    margin-top: -7px;
+}
+.footer-icon-part i{
+    padding-left: 10px;
+    margin-top: -10px;
+}
